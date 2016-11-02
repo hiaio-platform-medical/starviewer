@@ -142,11 +142,6 @@ HEADERS += extensionfactory.h \
     transferfunctionio.h \
     qtransferfunctioneditor.h \
     qtransferfunctioneditorbygradient.h \
-    accumulator.h \
-    averageaccumulator.h \
-    minimumaccumulator.h \
-    maximumaccumulator.h \
-    vtkProjectionImageFilter.h \
     vtkRunThroughFilter.h \
     slicingkeyboardtool.h \
     qthickslabwidget.h \
@@ -379,7 +374,6 @@ HEADERS += extensionfactory.h \
     filter.h \
     filteroutput.h \
     windowlevelfilter.h \
-    thickslabfilter.h \
     blendfilter.h \
     mammographyimagehelper.h \
     imagepipeline.h \
@@ -437,7 +431,10 @@ HEADERS += extensionfactory.h \
     encapsulateddocumentfillerstep.h \
     qdpiconfigurationscreen.h \
     vtkimageextractphase.h \
-    phasefilter.h
+    phasefilter.h \
+    vtkimagereslicemapper2.h \
+    sliceorientedvolumepixeldata.h \
+    voxelindex.h
 
 SOURCES += extensionmediator.cpp \
     displayableid.cpp \
@@ -541,8 +538,6 @@ SOURCES += extensionmediator.cpp \
     transferfunctionio.cpp \
     qtransferfunctioneditor.cpp \
     qtransferfunctioneditorbygradient.cpp \
-    accumulator.cpp \
-    vtkProjectionImageFilter.cxx \
     vtkRunThroughFilter.cxx \
     slicingkeyboardtool.cpp \
     qthickslabwidget.cpp \
@@ -762,7 +757,6 @@ SOURCES += extensionmediator.cpp \
     filter.cpp \
     filteroutput.cpp \
     windowlevelfilter.cpp \
-    thickslabfilter.cpp \
     blendfilter.cpp \
     mammographyimagehelper.cpp \
     imagepipeline.cpp \
@@ -820,7 +814,10 @@ SOURCES += extensionmediator.cpp \
     starviewerapplication.cpp \
     qdpiconfigurationscreen.cpp \
     vtkimageextractphase.cpp \
-    phasefilter.cpp
+    phasefilter.cpp \
+    vtkimagereslicemapper2.cpp \
+    sliceorientedvolumepixeldata.cpp \
+    voxelindex.cpp
 
 win32 {
     HEADERS += windowsfirewallaccess.h \
