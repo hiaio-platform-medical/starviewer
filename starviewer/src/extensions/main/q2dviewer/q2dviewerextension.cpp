@@ -1082,7 +1082,7 @@ void Q2DViewerExtension::handleViewerDoubleClick(Q2DViewerWidget *viewerWidget)
 {
     QSet<QString> toolsIncompatibleWithDoubleClickMaximization;
     toolsIncompatibleWithDoubleClickMaximization << "AngleTool" << "NonClosedAngleTool" << "DistanceTool" << "PerpendicularDistanceTool"
-                                                 << "MagicROITool" << "PolylineROITool";
+                                                 << "MagicROITool" << "PolylineROITool" << "EraserTool";
 
     foreach (const QString &tool, toolsIncompatibleWithDoubleClickMaximization)
     {
