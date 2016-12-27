@@ -33,9 +33,9 @@ public:
     WindowLevelTool(QViewer *viewer, QObject *parent = 0);
     ~WindowLevelTool();
 
-    void handleEvent(unsigned long eventID);
+    virtual void handleEvent(unsigned long eventID);
 
-private slots:
+protected slots:
     /// Resets the tool to a valid initial state.
     void reset();
 
@@ -51,7 +51,7 @@ private slots:
     /// Updates the way window level is being modified
     void updateWindowLevellingBehaviour();
 
-private:
+protected:
     /// Computes the corresponding window level values upon the movement factor specified by delta on each axis
     void computeWindowLevelValues(double deltaX, double deltaY, double &window, double &level);
     
@@ -68,7 +68,7 @@ private:
     /// Avoids zero and negative values for window and level
     void avoidZeroAndNegative(double &window, double &level);
 
-private:
+protected:
     /// Valors per controlar el mapeig del window level
     double m_initialWindow, m_initialLevel, m_currentWindow, m_currentLevel;
     /// Initial VOI LUT.

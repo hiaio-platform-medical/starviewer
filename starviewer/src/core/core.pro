@@ -107,6 +107,7 @@ HEADERS += extensionfactory.h \
     translatetool.h \
     voxelinformationtool.h \
     windowleveltool.h \
+    windowlevellefttool.h \
     seedtool.h \
     magicroitool.h \
     rotate3dtool.h \
@@ -508,6 +509,7 @@ SOURCES += extensionmediator.cpp \
     slicingtool.cpp \
     voxelinformationtool.cpp \
     windowleveltool.cpp \
+    windowlevellefttool.cpp \
     seedtool.cpp \
     magicroitool.cpp \
     rotate3dtool.cpp \
