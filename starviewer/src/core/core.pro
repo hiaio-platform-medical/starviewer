@@ -45,6 +45,7 @@ HEADERS += extensionfactory.h \
     itkQtAdaptor.h \
     harddiskinformation.h \
     logging.h \
+    profiling.h \
     volume.h \
     volumehelper.h \
     volumereader.h \
@@ -444,6 +445,7 @@ SOURCES += extensionmediator.cpp \
     mathtools.cpp \
     harddiskinformation.cpp \
     logging.cpp \
+    profiling.cpp \
     volume.cpp \
     volumehelper.cpp \
     volumereader.cpp \
