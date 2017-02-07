@@ -434,7 +434,8 @@ HEADERS += extensionfactory.h \
     phasefilter.h \
     vtkimagereslicemapper2.h \
     sliceorientedvolumepixeldata.h \
-    voxelindex.h
+    voxelindex.h \
+    plane.h
 
 SOURCES += extensionmediator.cpp \
     displayableid.cpp \
@@ -817,7 +818,8 @@ SOURCES += extensionmediator.cpp \
     phasefilter.cpp \
     vtkimagereslicemapper2.cpp \
     sliceorientedvolumepixeldata.cpp \
-    voxelindex.cpp
+    voxelindex.cpp \
+    plane.cpp
 
 win32 {
     HEADERS += windowsfirewallaccess.h \
