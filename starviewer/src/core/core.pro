@@ -299,6 +299,7 @@ HEADERS += extensionfactory.h \
     firewallaccess.h \
     firewallaccesstest.h \
     slicingwheeltool.h \
+    slicingmousetool.h \
     qmessageboxautoclose.h \
     commandlineoption.h \
     applicationversiontest.h \
@@ -686,6 +687,7 @@ SOURCES += extensionmediator.cpp \
     firewallaccess.cpp \
     firewallaccesstest.cpp \
     slicingwheeltool.cpp \
+    slicingmousetool.cpp \
     qmessageboxautoclose.cpp \
     commandlineoption.cpp \
     applicationversiontest.cpp \
