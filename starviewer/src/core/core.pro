@@ -273,6 +273,7 @@ HEADERS += extensionfactory.h \
     qcustomwindowleveleditwidget.h \
     applicationstylehelper.h \
     changesliceqviewercommand.h \
+    changephaseqviewercommand.h \
     qtransferfunctioneditor2.h \
     transferfunctioneditor.h \
     transferfunctioneditorcommands.h \
@@ -664,6 +665,7 @@ SOURCES += extensionmediator.cpp \
     qcustomwindowleveleditwidget.cpp \
     applicationstylehelper.cpp \
     changesliceqviewercommand.cpp \
+    changephaseqviewercommand.cpp \
     qtransferfunctioneditor2.cpp \
     transferfunctioneditor.cpp \
     transferfunctioneditorcommands.cpp \
